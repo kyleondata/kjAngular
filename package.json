@@ -1,0 +1,17 @@
+{
+  "name": "kjAngular",
+  "version": "1.0.0",
+  "description": "A sample app dynamic app using angular and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Jennings",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
