@@ -1,0 +1,26 @@
+<html>
+  <head></head>
+
+  <body ng-app='main'>
+    <div ng-controller='mainCtlr as main'>
+      <div ng-repeat='item in data'>
+        <p>{{item.title}}</p>
+        <p>{{item.summary}}</p>
+      </div>
+    </div> 
+  </body>
+</html>
+
+<!-- vendors -->
+<script src='bower_components/angular/angular.min.js'></script>
+<script src='bower_components/angular-resource/angular-resource.min.js'></script>
+<script src='bower_components/jquery/dist/jquery.min.js'></script>
+
+<!-- app -->
+<script src='app.js'></script>
+
+<!-- directives -->
+<script src='/directives/block.js'></script>
+
+<!-- services -->
+<script src='/services/data.js'></script>
